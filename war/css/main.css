@@ -1,0 +1,110 @@
+body {
+	font-size: 10.5pt;
+}
+
+p {
+	font-size: 10.5pt;
+}
+
+.clear {
+	clear: both;
+}
+
+div#main {
+	margin-top: 2em;
+}
+
+div#content h2 {
+	font-size: 14pt;
+	padding: 8px 0 3px 15px;
+	margin-bottom: 1em;
+	border-left: 10px solid #87ceeb;
+	border-bottom: 1px dotted #666;
+}
+
+div#content h3 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ff6600;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	border-bottom: 3px solid #ccc;
+}
+
+
+/** ヘッダー ここから */
+div#header {
+	position: relative;
+}
+div#header h1 {
+	font-size: 24pt;
+	color: #66ccff;
+}
+
+div#header p {
+	color: #808080;
+}
+/** ヘッダー ここまで */
+
+/** サイドバー ここから */
+/** サイドバー ここまで */
+
+/** コンテンツ ここから */
+div#content h2.m_top {
+	margin-top: 2em;
+}
+
+div#content dl.list {
+	margin: 10px;
+}
+
+div#content dl.list dt,
+div#content dl.comment dt{
+	display: list-item;
+	list-style: decimal inside;
+}
+
+div#content dl.list dd{
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+div#content dl.comment dd{
+	padding: 10px 0 10px 40px;
+}
+
+	/** フォーム ここから */
+input.short{
+	width: 80px;
+}
+	
+div#content dl dt span.required{
+	color: red;
+}
+
+div#content dl dd span.err{
+	color: red;
+	font-weight: bold;
+}
+
+div#content form dl dt {
+	color: #808080;
+}
+div#content form dl dd {
+	margin-left: 30px;
+}
+div#content form dl dd input{
+	width: 380px;
+}
+div#content form dl dd input.short{
+	width: 80px;
+}
+div#content form dl dd textarea {
+	width: 380px;
+	height: 250px;
+}
+div#content form dl dd input.err,
+div#content form dl dd textarea.err {
+	background-color: #ffccff;
+}
+	/** フォーム ここまで */
+/** コンテンツ ここまで */

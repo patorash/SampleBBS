@@ -1,0 +1,41 @@
+body {
+	color: #222;
+	text-align: center;
+}
+
+div#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+}
+
+div#header {
+	width: 940px;
+	text-align: left;
+	padding: 10px;
+	background-color: #99ccff;
+}
+
+div#footer {
+	width: 960px;
+	text-align: center;
+	background-color: #99cc99;
+	margin-top: 30px;
+}
+
+div#main {
+	width: 960px;
+}
+
+div#main div#content {
+	margin-left: 10px;
+	margin-right: 20px;
+	width: 620px;
+	float: left;
+}
+
+div#main div#sidebar {
+	float: left;
+	margin-right: 10px;
+	width: 300px;
+}
